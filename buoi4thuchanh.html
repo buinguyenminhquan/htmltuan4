@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{height: 800px;width: 1089px;background-color: rgb(13, 180, 7); border:double 3px crimson;}
+        *{margin:auto;pading:0px;}
+        nav{height: 47px;width: 1086px;background-color: rgb(134, 214, 219);padding: 3px;}
+        
+        header{height: 150px;width: 1089px;background-color: rgb(241, 159, 237);}
+        .content{height: 394px;width: 1083px;border:solid 3px rgb(238, 255, 3) ;}
+        aside{height: 100%;width: 40%;background-color: rgb(82, 4, 69); float:left;}
+        section{height: 100%;width: 60%;float:left;}
+        #frm{height: 100%;width: 98%;float:left; border-left:solid 3px rgb(238, 255, 3) ;}
+        .lbl{float: left; width: 45%;}
+        .inp{float: left;width: 45%;} 
+        .clear{clear:both;}
+        .menu li{width: 200px;height: 100%;float: left;line-height: 50px;}
+      
+
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul class="menu">
+                <li><a href="">ITEMX</a></li>
+                <li><a href="">ITEMX</a></li>
+                <li><a href="">ITEMX</a></li>
+                <li><a href="">ITEMX</a></li>
+            </ul>
+            <span>
+            <form action="iuh.edu.vn" method="get">
+            <input type="text" placeholder="search">
+            <button>GO</button>    
+
+                
+            </form>
+            </span>
+        </nav>
+        <header>Dau Trang</header>
+        <div class="content">
+            <aside>
+
+            </aside>
+            <section>
+                <form action="iuh.edu.vn" method="get"id="frm">
+                    <caption>
+                        FORM THONG TIN
+                    </caption>
+                    <fieldset>
+                        <legend>Thong tin dang ky</legend>
+                        <div class="lbl">
+                            <label for="lblMA">Ma Sinh</label> <br><br>
+                            <label for="lblHT">Ho ten</label> <br><br>
+                            <label for="lblGT">Gioi tinh</label> <br><br>
+                        </div>
+                        <div class="inp">
+                            <input type="text" name="txtMa" placeholder="Ma sinh vien" required> <br><br>
+                            <input type="text" name="txtHT" placeholder="Ho ten SV" required> <br><br>
+                            Nam
+                            <input type="checkbox" name="chk" id="chk1" checked value="Nam">Nu
+                            
+                            <input type="checkbox" name="chk" id="chk2" checked value="Nu">
+                        </div>
+                        <div class="clear"></div>
+                        <input type="submit" value="Dang ky">
+                        <input type="reset" vaule="Xoa">
+
+                    </fieldset>
+
+                </form>
+            </section>
+        </div>
+
+    </div>
+    
+</body>
+</html>
